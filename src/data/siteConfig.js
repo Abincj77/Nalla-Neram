@@ -1,11 +1,14 @@
+
+import Hero from '../assets/hero/hero-spices.webp';
+
 export const siteConfig = {
     brandNameMalayalam: "നല്ല നേരം",
-    whatsappNumber: "919000000000",
+    whatsappNumber: "919633313055",
     hero: {
         subtitle1: "Premium Spices.",
         subtitle2: "Naturally Selected.",
         ctaPrimary: "Explore Collection",
-        image: "src/assets/products/home/home.avif"
+        image: [Hero]
     },
     about: {
         title: "Rooted in Authenticity",

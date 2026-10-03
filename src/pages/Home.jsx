@@ -7,6 +7,7 @@ import { siteConfig } from '../data/siteConfig';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
+
 const Home = () => {
     const featuredProducts = products.filter(p => p.featured).slice(0, 3);
 
