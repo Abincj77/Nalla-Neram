@@ -46,7 +46,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={`tel:${siteConfig.footer.links.instagram}`} className="hover:text-white transition-colors">
+                                    <a href={siteConfig.footer.links.instagram} className="hover:text-white transition-colors">
                                         Instagram
                                     </a>
                                 </li>
