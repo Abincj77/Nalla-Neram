@@ -45,6 +45,11 @@ const Footer = () => {
                                         Call Us
                                     </a>
                                 </li>
+                                <li>
+                                    <a href={`tel:${siteConfig.footer.links.instagram}`} className="hover:text-white transition-colors">
+                                        Instagram
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
